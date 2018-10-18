@@ -1,0 +1,37 @@
+!!! MUST DO BEFORR RUNNING !!!
+Edit Network Interface Device Name: [ethr.py: line 32]
+
+IMPLEMENTATION LIST:
+
+# checksum.py: The checksum function.
+Calculate the checksum for given string.
+
+# ethr.py: The Ethernet II socket.
+Send Ethernet II frame. (construct correct Ethernet II frame header)
+Receive Ethernet II frame.
+Get local IP and MAC address.
+Get gateway IP address using 'route' command.
+GEt gateway MAC address using ARP. (construct correct ARP packet)
+
+# ip.py: The IP socket.
+Send IP packet. (construct correct IP packet header)
+Receive IP packet.
+Checksum calculate and verify.
+
+# tcp.py: The TCP socket.
+Get local valid port.
+Three-way handshake.
+Connection teardown. (Active & passive)
+Handle SEQ No. and ACK No.
+Send TCP segment.
+Basic timeout retransmission.
+Basic congestion window.
+Receive TCP segment.
+Buffer(advertised window) and sort out of order segments.
+Drop duplicate segments.
+Checksum calculate and verify.
+
+# rawhttpget.py
+Construct HTTP request header.
+Write response data into file with specified filename.
+Compare the file with result from 'wget' command.
